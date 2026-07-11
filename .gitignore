@@ -25,3 +25,5 @@ models/
 
 # Environment variables
 .env
+
+data/claim_training_dataset_final.csv

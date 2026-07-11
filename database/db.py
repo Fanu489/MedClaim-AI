@@ -2,11 +2,11 @@ from sqlalchemy import create_engine
 from urllib.parse import quote_plus
 import pandas as pd
 
-DB_USER = "postgres"
-DB_PASSWORD = quote_plus("Fanu@001.")
-DB_HOST = "localhost"
-DB_PORT = "5432"
-DB_NAME = "medclaim_ai_db"
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=your_database_name
 
 DATABASE_URL = (
     f"postgresql://{DB_USER}:{DB_PASSWORD}"
